@@ -13,7 +13,7 @@ The Ames Housing dataset was compiled by [Dean De Cock](http://jse.amstat.org/v1
 ## Model
 We evaluate the performance of 9 different models (lasso, elasticnet, ridge, svr, gradient boosting, random forest, xgboost, lightgbm, catboost regressors) by their Root-Mean-Squared-Error (RMSE) using a 10-fold cross validation. We then trained a meta StackingCVRegressor with 8 of the models (excluding random forest) and optimized using lasso. The final prediction will be an ensembled predictions from the models to prevent overfitting. Our final score is an good RMSE of **0.11525**.
 
-## Inspiration
+## Forks & Inspirations
 * [Comprehensive data exploration with Python](https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python)
 
 * [How I made top 0.3% on a Kaggle competition](https://www.kaggle.com/lavanyashukla01/how-i-made-top-0-3-on-a-kaggle-competition)
