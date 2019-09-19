@@ -11,7 +11,7 @@ The goal is to predict the sales price for each house. With 79 explanatory varia
 The Ames Housing dataset was compiled by [Dean De Cock](http://jse.amstat.org/v19n3/decock.pdf), which is an alternative to the often cited Boston Housing dataset. 
 
 ## Model
-We evaluate the performance of 9 different models (lasso, elasticnet, ridge, svr, gradient boosting, random forest, xgboost, lightgbm, catboost regressors) by their Root-Mean-Squared-Error (RMSE) using a 10-fold cross validation. We then trained a meta StackingCVRegressor with 8 of the models (excluding random forest) and optimized using lasso. The final prediction will be an ensembled predictions from the models to prevent overfitting. Our final score is an good RMSE of 0.11525.
+We evaluate the performance of 9 different models (lasso, elasticnet, ridge, svr, gradient boosting, random forest, xgboost, lightgbm, catboost regressors) by their Root-Mean-Squared-Error (RMSE) using a 10-fold cross validation. We then trained a meta StackingCVRegressor with 8 of the models (excluding random forest) and optimized using lasso. The final prediction will be an ensembled predictions from the models to prevent overfitting. Our final score is an good RMSE of **0.11525**.
 
 ## Inspiration
 * [Comprehensive data exploration with Python](https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python)
